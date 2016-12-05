@@ -32,6 +32,11 @@ https://www.coursera.org/specializations/iot
   4. Cloud Integration
     * All sensor data and photos will be uploaded to the cloud to for analysis
       * All cloud API's are RESTful API's
+      * Cloud Candidates are:
+        * <a href="http://www.ibm.com/internet-of-things/" target="_blank">IBM Watson (Bluemix)</a>
+        * <a href="https://cloud.google.com/solutions/iot/" target="_blank">Google</a>
+        * <a href="https://aws.amazon.com/iot/" target="_blank">Amazon</a>
+        * <a href="https://www.microsoft.com/en-us/cloud-platform/internet-of-things-azure-iot-suite" target="_blank">Microsoft</a>
 
 ##### Hardware
   1. Proof of concept hardware doesnt matter. Its best to keep hardware as close to Phase 2 BETA as possible to prevent rework and redesign.      
