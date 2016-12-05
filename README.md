@@ -32,6 +32,7 @@ https://www.coursera.org/specializations/iot
   4. Cloud Integration
     * All sensor data and photos will be uploaded to the cloud to for analysis
       * All cloud API's are RESTful API's
+
 ##### Hardware
   1. Proof of concept hardware doesnt matter. Its best to keep hardware as close to Phase 2 BETA as possible to prevent rework and redesign.      
   2. Time vs Money
@@ -41,7 +42,7 @@ https://www.coursera.org/specializations/iot
     * Dimensions are going to be very different than the BETA dimensions if we go this route. We cant build a production like enclosed unit because dimensions are very different.
         
 # Phase 2 (Product Protoype)
-### Product BETA for sensor array (20 units)
+### Product BETA for sensor array (10-20 units)
 ##### Requirements
   1. Advanced Networking Capabilities
     * Same as Phase 1. No changes.
@@ -66,16 +67,21 @@ https://www.coursera.org/specializations/iot
   6. Ease of upgrading and fixing BETA units
     * Once a unit gets installed at a remote location the ability to remotely diagnose a problem becomes important.
     * Initially remote monitoring of the device is more important than remote upgrades
+
 ##### BETA Hardware
   1. Hardware price vs Time to market are both important but not critical.
   2. Possibly interconnected devices. 1 device for internet, 1 for sensors, 1 for camera?
     
 # Phase 3 (Production Product)
+### Product Product for sensor array (500 units?)
 ##### Requirements
   1. Same as phase 2
   2. Solar is required so lower consumption is important
+
 ##### Production Hardware
   1. Hardware simplicity is very important
     * Wires and solder joints cause points for failure
     * Integrated/stacked boards are the normal to prevent high maintenance costs and returns
   2. Hardware must be integrated or simple stacking for simplicity
+  3. Tight enclosure so hardware must be at its final form factor
+  4. Hardware will be installed in its final enclosure.
