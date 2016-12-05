@@ -40,6 +40,22 @@ https://www.coursera.org/specializations/iot
   3. Easiest path would be a Raspberry Pi 3 with an ArduCAM camera
     * Problem is this will be throw away. We cant control Raspberry Pi power consumption.
     * Dimensions are going to be very different than the BETA dimensions if we go this route. We cant build a production like enclosed unit because dimensions are very different.
+  4. Usable hardware would be
+    * Arduino YUN
+      * Ideal. Best of all worlds?
+    * Arduino Tian
+      * Very expensive. Less mainstream so less online assistance available.
+    * ArduCAM ESP8266 with the below addons
+      * Very advanced networking features
+      * No available digital or analog ports
+      * Addon hardware required
+        * i2c-gpio extender
+          * http://www.nxp.com/documents/data_sheet/PCA9538A.pdf
+        * 2 Analog to digital converters
+          * http://www.ti.com/lit/ds/symlink/adc081c021.pdf    
+    * Raspberry Pi 3
+      * Has everything necessary to do the work and very simple. Horrible production product though
+      * Will have plenty of time for Cloud integration and some Cloud App
         
 # Phase 2 (Product Protoype)
 ### Product BETA for sensor array (10-20 units)
@@ -71,6 +87,14 @@ https://www.coursera.org/specializations/iot
 ##### BETA Hardware
   1. Hardware price vs Time to market are both important but not critical.
   2. Possibly interconnected devices. 1 device for internet, 1 for sensors, 1 for camera?
+    * Arduino YUN
+      * Ideal. Best of all worlds?
+    * Arduino Tian
+      * Very expensive. Less mainstream so less online assistance available.
+  4. Usable hardware would be
+    * ArduCAM ESP8266
+      * Very advanced networking features
+      * No available digital or analog ports
     
 # Phase 3 (Production Product)
 ### Product Product for sensor array (500 units?)
@@ -80,6 +104,7 @@ https://www.coursera.org/specializations/iot
 
 ##### Production Hardware
   1. Hardware simplicity is very important
+    * There is no production hardware that meets the requirements
     * Wires and solder joints cause points for failure
     * Integrated/stacked boards are the normal to prevent high maintenance costs and returns
   2. Hardware must be integrated or simple stacking for simplicity
