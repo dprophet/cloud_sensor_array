@@ -87,15 +87,14 @@ https://www.coursera.org/specializations/iot
 ##### BETA Hardware
   1. Hardware price vs Time to market are both important but not critical.
   2. Possibly interconnected devices. 1 device for internet, 1 for sensors, 1 for camera?
-    * Arduino YUN
-      * Ideal. Best of all worlds?
-    * Arduino Tian
-      * Very expensive. Less mainstream so less online assistance available.
-  4. Usable hardware would be
-    * ArduCAM ESP8266
-      * Very advanced networking features
-      * No available digital or analog ports
-    
+  3. Usable hardware would be
+    * ArduCAM ESP8266 + Addons
+      * Needs lots of development to support GSM
+    * Arduino Industrial 101
+      * http://www.arduino.org/products/boards/arduino-industrial-101
+    * Arduino MINI
+      * http://www.arduino.org/products/boards/arduino-yun-mini
+      
 # Phase 3 (Production Product)
 ### Product Product for sensor array (500 units?)
 ##### Requirements
