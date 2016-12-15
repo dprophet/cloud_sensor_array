@@ -56,8 +56,10 @@ https://www.coursera.org/specializations/iot
       * Addon hardware required
         * i2c-gpio extender
           * http://www.nxp.com/documents/data_sheet/PCA9538A.pdf
+          * https://www.sparkfun.com/products/13601   (Most likely)
         * 2 Analog to digital converters
-          * http://www.ti.com/lit/ds/symlink/adc081c021.pdf    
+          * http://www.ti.com/lit/ds/symlink/adc081c021.pdf
+          * https://www.sparkfun.com/products/8636    (Most likely)
     * Raspberry Pi 3
       * Has everything necessary to do the work and very simple. Horrible production product though
       * Will have plenty of time for Cloud integration and some Cloud App
