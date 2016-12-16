@@ -45,7 +45,7 @@ https://www.coursera.org/specializations/iot
 3. Easiest path would be a Raspberry Pi 3 with an ArduCAM camera
   * Problem is this will be throw away. We cant control Raspberry Pi power consumption.
   * Dimensions are going to be very different than the BETA dimensions if we go this route. We cant build a production like enclosed unit because dimensions are very different.
-4. Usable hardware would be
+4. Usable microcontroller hardware would be
   * Arduino YUN
     * Ideal. Best of all worlds?
       * Correction: Horrible. As of 12/16/2016 there are SPI/I2C incompatibilities between Arduino A000008 Yun and Arduino YUN Mini and the camera.
@@ -75,7 +75,9 @@ https://www.coursera.org/specializations/iot
     * Seeeduino Cloud
       * BINGO.
       * http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_???
-        
+5. Sensor hardware will likely be
+  * https://www.sparkfun.com/products/12081
+
 # Phase 2 (Product Protoype)
 ### Product BETA for sensor array (10-20 units)
 ##### Requirements
