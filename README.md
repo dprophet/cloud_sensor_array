@@ -50,10 +50,10 @@ https://www.coursera.org/specializations/iot
     1. Ideal. Best of all worlds?
       1. Correction: Horrible. As of 12/16/2016 there are SPI/I2C incompatibilities between Arduino A000008 Yun and Arduino YUN Mini and the camera.
         1. The registry test of the ArduCAM
-```markdown
+            ```c
             myCAM->write_reg(ARDUCHIP_TEST1, 0x55);
             temp = myCAM->read_reg(ARDUCHIP_TEST1);
-```
+            ```
         2. Fails
   2. Arduino Tian
     1. Very expensive. Less mainstream so less online assistance available.
