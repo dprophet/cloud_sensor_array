@@ -39,30 +39,40 @@ https://www.coursera.org/specializations/iot
         * <a href="https://www.microsoft.com/en-us/cloud-platform/internet-of-things-azure-iot-suite" target="_blank">Microsoft</a>
 
 ##### Hardware
-  1. Proof of concept hardware doesnt matter. Its best to keep hardware as close to Phase 2 BETA as possible to prevent rework and redesign.      
-  2. Time vs Money
-    * Time is more important than price at this phase
-  3. Easiest path would be a Raspberry Pi 3 with an ArduCAM camera
-    * Problem is this will be throw away. We cant control Raspberry Pi power consumption.
-    * Dimensions are going to be very different than the BETA dimensions if we go this route. We cant build a production like enclosed unit because dimensions are very different.
-  4. Usable hardware would be
-    * Arduino YUN
-      * Ideal. Best of all worlds?
-    * Arduino Tian
-      * Very expensive. Less mainstream so less online assistance available.
-    * ArduCAM ESP8266 with the below addons
-      * Very advanced networking features
-      * No available digital or analog ports
-      * Addon hardware required
-        * i2c-gpio extender
+1. Proof of concept hardware doesnt matter. Its best to keep hardware as close to Phase 2 BETA as possible to prevent rework and redesign.      
+2. Time vs Money
+  1. Time is more important than price at this phase
+3. Easiest path would be a Raspberry Pi 3 with an ArduCAM camera
+  1. Problem is this will be throw away. We cant control Raspberry Pi power consumption.
+  2. Dimensions are going to be very different than the BETA dimensions if we go this route. We cant build a production like enclosed unit because dimensions are very different.
+4. Usable hardware would be
+  1. Arduino YUN
+    1. Ideal. Best of all worlds?
+      1. Correction: Horrible. As of 12/16/2016 there are SPI/I2C incompatibilities between Arduino A000008 Yun and Arduino YUN Mini and the camera.
+        1. The registry test of the ArduCAM
+```markdown
+            myCAM->write_reg(ARDUCHIP_TEST1, 0x55);
+            temp = myCAM->read_reg(ARDUCHIP_TEST1);
+```
+        2. Fails
+  2. Arduino Tian
+    1. Very expensive. Less mainstream so less online assistance available.
+  3. ArduCAM ESP8266 with the below addons
+      1. Very advanced networking features
+      2. No available digital or analog ports
+      3. Addon hardware required
+        1. i2c-gpio extender
           * http://www.nxp.com/documents/data_sheet/PCA9538A.pdf
           * https://www.sparkfun.com/products/13601   (Most likely)
-        * 2 Analog to digital converters
+        2. 2 Analog to digital converters
           * http://www.ti.com/lit/ds/symlink/adc081c021.pdf
           * https://www.sparkfun.com/products/8636    (Most likely)
     * Raspberry Pi 3
       * Has everything necessary to do the work and very simple. Horrible production product though
       * Will have plenty of time for Cloud integration and some Cloud App
+    * Seeeduino Cloud
+      * BINGO. T
+      * http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_???
         
 # Phase 2 (Product Protoype)
 ### Product BETA for sensor array (10-20 units)
