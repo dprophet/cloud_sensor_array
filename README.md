@@ -49,14 +49,14 @@ https://www.coursera.org/specializations/iot
   * Arduino YUN
     * Ideal. Best of all worlds?
       * Correction: Horrible. As of 12/16/2016 there are SPI/I2C incompatibilities between Arduino A000008 Yun and Arduino YUN Mini and the camera.
-        * The registry test of the ArduCAM
+        * The below registry test of the ArduCAM failes. The returned temp should  be 0x55
         
             ```c
             myCAM->write_reg(ARDUCHIP_TEST1, 0x55);
             temp = myCAM->read_reg(ARDUCHIP_TEST1);
             ```
             
-        * Fails. temp should be a 0x55
+        * YUM like features are necessary. Read more below.
   * Arduino Tian
     * Very expensive. Less mainstream so less online assistance available.
   * ArduCAM ESP8266 with the below addons
