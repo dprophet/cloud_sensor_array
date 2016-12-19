@@ -6,7 +6,7 @@ https://www.coursera.org/specializations/iot
 
 |        Phase                | # Analog Sensors | Digital Sensors | Camera | WIFI | GSM/Cellular | SD  | Power Consumption | Cloud Integration | Cloud Application | Cloud Data Analysis | 
 | :-------------------------: |:----------------:| :-------------: | :----: | :--: | :----------: | :-: | :---------------: | :---------------: | :---------------: | :-----------------: |  
-| Phase 1 - Proof of concept  | 2                |   1             | 1      | Yes  | No           | No  | Not important     | Yes - Full        | Simple            | No                  |
+| Phase 1 - Proof of concept  | 2                |   1             | 1      | Yes  | No           | Yes | Not important     | Yes - Full        | Simple            | No                  |
 | Phase 2 - Product BETA      | 3                |   3             | 2      | Yes  | Yes          | Yes | Possibly Solar    | Yes - Full        | Functional        | No                  |
 | Phase 3 - Product           | 3                |   3             | 2      | Yes  | Yes          | Yes | Solar Required    | Yes - Full        | Advanced          | Yes                 |
 
