@@ -76,7 +76,8 @@ https://www.coursera.org/specializations/iot
       * BINGO.
       * http://wiki.seeedstudio.com/wiki/Seeeduino_Cloud_???
 5. Sensor hardware will likely be
-  * https://www.sparkfun.com/products/12081
+  * https://www.sparkfun.com/products/12081 - Weather Shield (Humidity/Temperature, Barometric Pressure, Light)
+  * https://www.sparkfun.com/products/13676 - Atmospheric Sensor BME280 (barometric pressure, humidity, and temperature)
 
 # Phase 2 (Product Protoype)
 ### Product BETA for sensor array (10-20 units)
